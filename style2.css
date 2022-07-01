@@ -1,0 +1,37 @@
+body{
+    background-image: url(logo.jpg);
+}
+.cart{
+    color: white;
+    align-items: center;
+    display: block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000, 300,500;
+    border-radius: 20px;
+}
+table, th, tr,td{
+    width: 50%;
+    border: 1px solid WHITE; 
+    color: white;
+    padding: 20px;
+   
+}
+.store{
+    padding: 20px;
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border:none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    transform: scale(1.15s);
+    color: green;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

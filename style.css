@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-image: url(shopg.jpg);
+    background-color:white;
+    box-sizing: border-box;
+  
+  
+
+}
+.image{
+    margin-top: 60px;
+    color: darkslategrey;
+    opacity: 100%;
+}
+header{
+    border: 40px solid skyblue;  
+}
+.flexa{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    float: column;
+    background-color:  skyblue;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    flex-wrap:nowrap;
+    border-radius: 10px;
+    opacity: 100%; 
+}
+ nav{
+    padding: 0;
+    display: flex;
+    justify-content:  space-around;
+    margin-bottom: 10px;  
+}
+a{
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px; 
+    padding-top: 20px;
+    color: white;
+    /* opacity: 50%; */
+}
+ button{
+background-color:palevioletred;
+color:black;
+border: none;
+border-radius: 10px;
+}
+div.image, img{
+    border-radius: 10px;
+    color: black;
+}
+.nav{
+    background-color: skyblue;
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    justify-content: left;
+    text-align: center;
+    margin-left: 20px;
+    border: 2px solid green;
+}
+button:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.5 ease-in;
+}
+h3{
+    color: green;
+}
+@media screen and (max-width:375px ) {
+    body{
+        background-color: black;
+    }
+
+}
+
