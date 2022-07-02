@@ -7,6 +7,9 @@ body{
   
 
 }
+html, body {
+    max-width:100%;
+    }
 .image{
     margin-top: 60px;
     color: darkslategrey;
@@ -80,10 +83,8 @@ button:hover{
 h3{
     color: green;
 }
-@media screen and (max-width:375px ) {
-    body{
-        background-color: black;
-    }
+@media screen and (max-width:100%) {
+    
 
 }
 
