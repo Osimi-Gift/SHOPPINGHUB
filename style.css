@@ -3,7 +3,7 @@ body{
     background-image: url(shopg.jpg);
     background-color:white;
     box-sizing: border-box;
-  
+    opacity : 90%;
   
 
 }
@@ -65,8 +65,8 @@ div.image, img{
     padding: 20px;
 }
 input{
-    padding: 10px;
-    padding-left: 40px;
+    padding: 50px;
+
     border-radius: 5px;
     margin-top: 30px;
     justify-content: left;
