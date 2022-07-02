@@ -67,8 +67,9 @@ div.image, img{
     width:300px;
 }
 div{
-    width:50%;
-    padding:70px;
+    width:200px;
+    padding:40;
+      
 }
 input{
     padding: 30px;
