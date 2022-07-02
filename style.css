@@ -65,13 +65,13 @@ div.image, img{
     padding: 20px;
 }
 input{
-    padding: 50px;
+    padding: 30px;
 
     border-radius: 5px;
     margin-top: 30px;
     justify-content: left;
     text-align: center;
-    margin-left: 20px;
+    margin: auto;
     border: 2px solid green;
 }
 button:hover{
