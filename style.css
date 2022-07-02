@@ -69,12 +69,12 @@ div{
 }
 input{
     padding: 30px;
-    margin-bottom:10px;
+    margin-bottom:20px;
     border-radius: 5px;
     margin-top: 30px;
     justify-content: center ;
     text-align: center;
-    margin: 20px auto;
+
     border: 2px solid green;
 }
 button:hover{
