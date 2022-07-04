@@ -7,15 +7,26 @@ body{
   
 
 }
-* {
-    max-width:100%;
-    min-width:100%;
-    }
+
+   div{
+       color :white;
+       }
+    
+
 .image{
     margin-top: 60px;
     color: darkslategrey;
     opacity: 100%;
+    width:300px;
+    height:300px;
+    border:10px;
 }
+#this{
+    width:200px;
+    }
+#show{
+    background-color : slateblue ;
+    padding:50px;
 header{
     border: 40px solid skyblue;  
 }
@@ -41,7 +52,7 @@ header{
     display: flex;
     justify-content:  space-around;
     margin-bottom: 10px; 
-     width:100%;
+    
 }
 a{
     text-decoration: none;
@@ -49,7 +60,7 @@ a{
     padding: 20px; 
     padding-top: 20px;
     color: white;
-    /* opacity: 50%; */
+   
 }
  button{
 background-color:palevioletred;
@@ -62,24 +73,25 @@ div.image, img{
     color: black;
 }
 .nav{
+    width:100%;
     background-color: skyblue;
     padding: 20px;
-    width:300px;
+    justify-content: space-around;
 }
-div{
+
    
-    padding:300px;
+    
       
-}
+
 input{
-    padding: 30px;
-    margin-bottom:20px;
+    padding: 10px;
+    padding-left:40px auto;
     border-radius: 5px;
     margin-top: 30px;
     justify-content: center ;
     text-align: center;
-
-    border: 2px solid green;
+    margin-left:20px;
+    border: none;
 }
 button:hover{
     transform: scale(1.15);
@@ -89,9 +101,9 @@ button:hover{
     transition: 0.5 ease-in;
 }
 h3{
-    color: green;
+    color: red;
 }
-@media screen and (max-width:100%) {
+@media screen and (min-width:100%) {
     
 
 }
