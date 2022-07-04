@@ -64,9 +64,9 @@ a{
 }
  button{
 background-color:palevioletred;
-color:black;
+color:black ;
 border: none;
-border-radius: 10px;
+border-radius: 20px;
 }
 div.image, img{
     border-radius: 10px;
@@ -92,6 +92,7 @@ input{
     text-align: center;
     margin-left:20px;
     border: none;
+    margin-bottom : 10px;
 }
 button:hover{
     transform: scale(1.15);
