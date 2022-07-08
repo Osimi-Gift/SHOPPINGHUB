@@ -3,17 +3,34 @@ body{
     background-image: url(shopg.jpg);
     background-color:white;
     box-sizing: border-box;
-  
+    color: white;
+    opacity:90%;
   
 
+}
+div{
+    color: white;
 }
 .image{
     margin-top: 60px;
     color: darkslategrey;
     opacity: 100%;
+    width: 300px;
+    height: 300px;
+   border: 10px;
+   margin-bottom: 30px; 
+}
+#this{
+    width:200px;
+}
+#show{
+    background-color: slateblue;
+    padding: 50px;
+    
 }
 header{
-    border: 40px solid skyblue;  
+     
+ border: 40px solid skyblue;   
 }
 .flexa{
     width: 50%;
@@ -25,7 +42,7 @@ header{
     float: column;
     background-color:  skyblue;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 20px;
     color: white;
     flex-wrap:nowrap;
@@ -33,10 +50,10 @@ header{
     opacity: 100%; 
 }
  nav{
-    padding: 0;
+    padding: 0px;
     display: flex;
     justify-content:  space-around;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;   
 }
 a{
     text-decoration: none;
@@ -44,7 +61,7 @@ a{
     padding: 20px; 
     padding-top: 20px;
     color: white;
-    /* opacity: 50%; */
+    
 }
  button{
 background-color:palevioletred;
@@ -52,20 +69,19 @@ color:black;
 border: none;
 border-radius: 10px;
 }
-div.image, img{
-    border-radius: 10px;
-    color: black;
-}
+
 .nav{
+    width:100%;
     background-color: skyblue;
     padding: 20px;
+    justify-content: space-around;
 }
 input{
     padding: 10px;
-    padding-left: 40px;
+    padding-left: 40px auto;
     border-radius: 5px;
     margin-top: 30px;
-    justify-content: left;
+    justify-content: center;
     text-align: center;
     margin-left: 20px;
     border: 2px solid green;
@@ -80,10 +96,8 @@ button:hover{
 h3{
     color: green;
 }
-@media screen and (max-width:375px ) {
-    body{
-        background-color: black;
-    }
+ @media screen and (min-width:100%){}
+@media screen and (min-width:100%){}
 
-}
+
 
