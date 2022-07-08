@@ -7,9 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="max-width: 100%; min-width: 100%; max-height: 100%; min-height: 100%;">
+  <body>
     <div
       style="
+     
         display: block;
         border-radius: 20px;
         justify-content: center;
@@ -19,6 +20,10 @@
         margin:  auto;
         padding-top: 40px;
          padding: 0px; 
+        width:300px;
+        margin: auto;
+        padding-top: 40px;
+        padding: 0px; 
         padding-bottom: 60px;
         background-color:rgb(4, 74, 102);
       "
@@ -29,8 +34,13 @@
         <div><input type="text" class="input"   placeholder="Last Name" required/></div>
         <div> <input type="email" class="input"  placeholder="Email Address" required /></div>
         <div><input type="number" class="input"  placeholder="Phone Number" required/></div>
+          <h2 style="color: white; justify-content:center;padding:20px; margin:auto;">Register today</h2>
+        <input type="text" class="input" placeholder="First Name" required />
+        <div><input type="text" class="input"   placeholder="Last Name" required/><div>
+       <div> <input type="email" class="input"  placeholder="Email Address" required /><div>
+      <div>  <input type="number" class="input"  placeholder="Phone Number" required/><div>
         <div>
-          <select style="margin-left:20px ; margin-top:5px;" required>
+          <select style="margin-left:20px ; margin-top:5px; padding:10px; color:white; background-color:steelblue; border-radius:10px;margin-bottom:10px;" required>
             <option value="gender">Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
@@ -39,9 +49,11 @@
         <input type="password" class="input"  placeholder="Password"required />
         <div><input type="password" class="input"  style=" text-decoration: none;"placeholder=" Confirm Password" required /></div>
         <button class="submit" style=" color:white;margin-left:20px; padding:5px;margin-top: 20px;"><b>Sign-up</b></button>
+        <input type="password" class="input"  style=" text-decoration: none;"placeholder=" Confirm Password" required />
+        <button class="submit" style=" background-color:palevioletred; color:white;margin-left:20px; padding:5px;margin-top: 20px;border:none; border-radius:10px;"><b>Sign-up</b></button>
       </form>
       <h3 class="message"></h3>
-      <button style="padding:10px ;margin-left:20px; margin-top: 20px;""><a href="login.html">Login</a></button>
+      <button style="padding:10px ;margin-left:20px; margin-top: 20px;color:white; border-radius:10px; border:none;background-color:palevioletred;"><a href="login.html">Login</a></button>
     </div>
       
     <script src="SCRIPT.JS"></script>
