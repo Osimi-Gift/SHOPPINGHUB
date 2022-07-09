@@ -10,9 +10,9 @@ body{
 }
 div{
     color: white;
-}
+} 
    
-
+ 
    div{
        color :white;
        }
@@ -33,7 +33,7 @@ div{
 #show{
     background-color: slateblue;
     padding: 50px;
-    
+    border-radius: 20px;
     width:300px;
     height:300px;
     border:10px;
@@ -67,13 +67,25 @@ header{
     border-radius: 10px;
     opacity: 100%; 
 }
+#logo{
+    width:20%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.name{
+    position:fixed;
+    left: 5%;
+    margin-top:10px ;
+}
  nav{
     padding: 0px;
     display: flex;
     justify-content:  space-around;
     margin-bottom: 10px;   
     margin-bottom: 10px; 
-    
+    background-color:#3b3e6d;
 }
 a{
     text-decoration: none;
@@ -81,7 +93,7 @@ a{
     padding: 20px; 
     padding-top: 20px;
     color: white;
-    
+   
    
 }
 button{
@@ -90,12 +102,16 @@ color:black ;
 border: none;
 border-radius: 10px;
 }
-
+.btn{
+    padding: 0px;
+}
 .nav{
     width:100%;
-    background-color: skyblue;
+    background-color:#3b3e6d;
     padding: 20px;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
 }
 
    
@@ -103,19 +119,21 @@ border-radius: 10px;
       
 
 input{
+   
     padding: 10px;
     padding-left: 40px auto;
     border-radius: 5px;
     margin-top: 30px;
     justify-content: center;
-    padding-left:40px auto;
+    padding-left: 0;
     border-radius: 5px;
     margin-top: 30px;
     justify-content: center ;
     text-align: center;
     margin-left:20px;
     border: none;
-    margin-bottom : 20px;
+    margin-bottom : 10px;
+   margin-left:30% ;
 }
 button:hover{
     transform: scale(1.15);
@@ -127,6 +145,7 @@ button:hover{
 h3{
     color: red;
 }
+
  @media screen and (min-width:100%){}
 @media screen and (min-width:100%){}
 
