@@ -4,9 +4,11 @@ body{
     background-color:white;
     box-sizing: border-box;
     color: white;
-    opacity:90%;
-  
-
+    opacity:85%;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  justify-content: center;
 }
 div{
     color: white;
