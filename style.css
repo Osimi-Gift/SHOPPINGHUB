@@ -1,3 +1,12 @@
+*{
+box-sizing: border-box;
+margin: 0;
+font-size: 16px;
+font-family: sans-serif;
+max-width: 100%;
+}
+
+
 body{
     margin: 0;
     background-image: url(shopg.jpg);
@@ -149,13 +158,9 @@ h3{
     color: red;
 }
 
- @media screen and (min-width:100%){}
-@media screen and (min-width:100%){}
+ @media screen and (min-width:375px){}
+@media screen and (max-width:1440px){}
 
 
-@media screen and (min-width:100%) {
-    
 
-}
-@media screen and (min-width:100%){}
 
